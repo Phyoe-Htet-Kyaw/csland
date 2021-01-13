@@ -1,12 +1,10 @@
 [
     {
-        "status": 200,
-        "message": "success",
-        "data": [
-            {
-                "id": 1,
-                "name": "general"
-            }
-        ]
+        "id": 1,
+        "name": "General"
+    },
+    {
+        "id": 2,
+        "name": "Programming Paradigms"
     }
 ]
