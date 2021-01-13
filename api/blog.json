@@ -16,7 +16,7 @@
     {
         "id": 3,
         "title": "Object Oriented Programming (OOP)",
-        "category_id": 2,
+        "category_id": 3,
         "photo": "images/3.jpg",
         "description": "ဘယ် Programming Language ပဲ လေ့လာ လေ့လာ Procedural အဆင့်ပြီးရင် OOP level ကို တက်လှမ်းရ စမြဲပါပဲ။ OOP မသိရင် အကြီးကြီးတွေ ရေးဖို့ အဆင်မပြေလှပါဘူး။ အဲ့တော့ OOP အကြောင်း ကျွန်တော် သိသလောက်ရှင်းပြပါမယ်။
         OOP ဆိုတာ Object-Oriented Programming လို့ခေါ်တဲ့ Programming paradim တစ်မျိုးပါ။ Object တွေကို အခြေခံပြီး ရေးသွားတဲ့ paradim ရေးဟန် တစ်မျိုးပါ။ 
@@ -39,7 +39,7 @@
     },
     {
         "id": 4,
-        "title": "Emperor of JavaScript",
+        "title": "Access Modifier in PHP",
         "category_id": 2,
         "photo": "images/4.jpg",
         "description": "Access Modifier ဆိုတာ ဘာလဲဆိုရင် နားလည်အောင်ပြောရရင်တော့ ကျွန်တော်တို့ declare လုပ်ထားတဲ့ class တွေ၊ method တွေ၊ variable တွေကို ဘယ်လောက်အတိုင်းအတာအထိ အသုံးပြုခွင့်ပေးမလဲ (Access လုပ်ခွင့်ပေးမလဲ) ဆိုပြီး Modify လုပ်ပေးတဲ့ keyword တွေကို ခေါ်တာပါ။ အဲ့တော့ PHP မှာ ရှိတဲ့ Access Modifier တွေကို လေ့လာကြည့်ရအောင်။
@@ -85,4 +85,155 @@
         destructor method ကတော့ constructor ရဲ့ ပြောင်းပြန်ပါ။ နောက်ဆုံးမှာ အလုပ်လုပ်ပါတယ်။ ကျွန်တော်တို့ခေါ်ချင်တဲ့ Class ထဲက method ကို object အနေနဲ့ ခေါ် runရင် ကျွန်တော်တို့ ခေါ်ချင်တဲ့ method အလုပ်လုပ်ပြီးတာနဲ့ ဒီကောင် အလုပ် စလုပ်ပါတယ်။ 
         ဆိုတော့ ပြန်ချုပ်ရရင် Constructor ဆိုတာ object ခေါ်ရင် အရင်ဦးဆုံး စလုပ်တဲ့ method ဖြစ်ပြီးတော့ destructor ဆိုတာ နောက်ဆုံးမျ အလုပ်လုပ်တဲ့ method ဖြစ်ပါတယ်။ သိထားရမှာ တစ်ခုက သူတို့ကို ခေါ်အလုပ်လုပ်ဖို့ object ခေါ်ပေးစရာမလိုပါဘူး။ မခေါ်ပဲ သူ့အလိုလို အလုပ်လုပ်တဲ့ method တွေပါ။"
     },
+    {
+        "id": 6,
+        "title": "Traits in PHP",
+        "category_id": 2,
+        "photo": "images/6.jpg",
+        "description": "PHP မှာ inherit လုပ်ရင် single inheritance ပဲ လုပ်လို့ရပါတယ်။ single inheritance ဆိုတာက child class တစ်ခုက parent class တစ်ခုကိုပဲ inherit လုပ်လို့ရတယ်လို့ ပြောချင်တာပါ။ parent class တစ်ခုထက်ပိုပြီး ခေါ်သုံးချင်တယ်ဆိုရင်တော့ traits class ကိုသုံးရပါမယ်။
+        Traits Class ထဲမှာ ရိုးရိုး method ကော abstract method တွေပါ အဆင်ပြေတဲ့အပြင် ကြိုက်တဲ့ access modifier ကို အသုံးပြုလို့ရပါတယ်။
+        အဲ့တော့ traits class ရဲ့ syntax က ဒီလိုမျိူးပါ။
+        trait ClassName{
+                // your code is here
+        }
+        အဲ့ traits class ကို ခေါ်သုံးချင်ရင်တော့ use ဆိုတဲ့ keywords ကို သုံးပေးရမှာပါ။ ဥပမာ အပေါ်က ClassName ဆိုတဲ့ traits ကို ခေါ်သုံးမယ်ဆိုရင် use ClassName ဆိုပြီး သုံးပေးရပါတယ်။ အောက်က ပုံကတော့ Sample Code ပါ။ 
+        Multiple Traits
+        တစ်ခုထက်ပိုတဲ့ Traits ကို inherit လုပ်ချင်တယ်ဆိုရင်တော့ use ClassName မှာ comma တိုးပြီး ရေးရုံပါပဲ။ အောက်မှာ  Sample Code ပြထားပါတယ်။
+        အဲ့တော့ Inheritance လုပ်တဲ့နေရာမှာ extends keyword ကိုသုံးမယ်ဆိုရင်တော့ Single Parent Class ကိုပဲ inherit လုပ်လို့ရမှာဖြစ်ပြီး Multiple Parent Class ကို inherit လုပ်ချင်ရင်တော့ Traits ကိုသုံးလို့ရပါကြောင်း..."
+    },
+    {
+        "id": 7,
+        "title": "PHP Autoload",
+        "category_id": 2,
+        "photo": "images/7.jpg",
+        "description": "ကျွန်တော်တို့ PHP OOP အရ Object တွေ Class တွေကို file တွေခွဲပြီး တည်ဆောက်ပြီးပြီ။ ဒါကို ကျွန်တော်တို့ တခြား ဘာမှမရှိတဲ့ php file အသစ်တစ်ခုကနေ ကျွန်တော်တို့ရေးခဲ့တဲ့ Class တွေကို Object ဆောက်ပြီးခေါ်သုံးမယ်ဆိုပါစို့။ သေချာတာတစ်ခုက ကျွန်တော်တို့ Object ခေါ်မဲ့ php file မှာ ဘာမှ မရှိတဲ့အတွက် object ခေါ်သုံးမဲ့ Class ကို require လှမ်းလုပ်ရမှာပါ။ (ဒီ require တွေ include တွေအကြောင်းကိုလဲ articles တစ်ပုဒ်ထပ်တင်ပါ့မယ်။) အဲ့တော့ Class တစ်ခုကို Object ခေါ်ဖို့ အဲ့ PHP Class file ကို require တစ်ခါ လုပ်ရမယ်။ ဒါအဆင်ပြေသေးတယ်။ Class ဆယ်ခုလောက်ဆို အဆင်မပြေတော့ဘူး။ require code က တသီတန်းကြီး ဖြစ်နေရော။ အာ့ကို ရိုးရိုး php file ဆယ်ခုလောက်က ထပ်ခေါ်ရမယ်ဆို ပိုလို့တောင် အဆင်မပြေသေးတယ်။ PHP file တခုမှာ require code ဆယ်ကြောင်းဆို PHP file 10 files လောက်ဆို require code အကြောင်း 100 လောက် လိုက်ရေးနေရမှာ။ အဲ့တော့ ဒီ problem ကိုဖြေရှင်းဖို့ ကျွန်တော်တို့ PHP autoload ဆိုတာကို ခေါ်သုံးရပါတော့မယ်။ ဒီ autoload ရဲ့ သဘောက ဘယ်လိုမျိုးလဲဆိုတာ မရှင်းပြခင် PHP Class တစ်ခုကို Object အနေနဲ့ လှမ်းခေါ်လိုက်တဲ့အခါ ဘယ်လိုအလုပ်လုပ်လဲဆိုတာ အရင်ပြောပြပါမယ်။ ကျွန်တော်တို့ PHP Class တစ်ခုကို Object အနေနဲ့ လှမ်းခေါ်တဲ့အချိန်မှာ new keyword ဆိုတာကို သုံးရပါတယ်။ အဲ့ new keyword ကိုသုံးပြီး Object ခေါ်လိုက်ပြီဆိုတာနဲ့ ကျွန်တော်တို့ခေါ်လိုက်တဲ့ Class က လက်ရှိ php file ထဲမှာ ရှိမရှိ အရင်စစ်ပါတယ်။ ရှိရင် အဲ့ Class ကိုခေါ်သုံးလိုက်ပါတယ်။ မရှိရင် Fatal error: Class not found ဆိုပြီး တက်လာပါတယ်။ ဒါ Object လှမ်းခေါ်ရင် PHP OOP က အလုပ်လုပ်ပုံပါ။ အဲ့အချိန် ကျွန်တော်တို့က autoload ပါ ခေါ်သုံးလိုက်တယ်ဆိုရင် ခုနက Class မရှိခဲ့ရင်ဆိုတဲ့ အဆင့်ကနေ ဆက်သွားပါတယ်။ Class မရှိခဲ့ရင် Autoload ကို သူအလုပ်လုပ်မယ်။ Autoload နဲ့ ကျွန်တော်တို့ခေါ်ထားတဲ့ Class ကို ဆွဲအလုပ်လုပ်မယ်။ အဲ့တာမှ မရှိခဲ့ရင်​တော့ ခုနက Fatal error တက်မှာပါ။ Class not found ပေါ့။ ရှိခဲ့ရင်တော့ Class ကိုလှမ်းခေါ်မှာပါ။ အဲ့တော့ autoload တကယ် ဘယ်လို အလုပ်လုပ်လဲဆိုတာ ရှင်းပြပါမယ်။ 
+        Autoload က require တွေ အများကြီးကို မရေးပါဘူး။ require တစ်ကြောင်းပဲရေးထားတာပါ။ အဲ့တော့ autoload ရေးဖို့အတွက် php file တစ် file အရင်ဆောက်ပါတယ်။ အဲ့ထဲမှာ spl_autoload_register ဆိုတဲ့ autoload method ကိုခေါ်သုံးပါတယ်။ သူ့မှာ callback function ရှိပါတယ်။ အဲ့ callback function ထဲကို ကျွန်တော်တို့ လှမ်းခေါ်လိုက်တဲ့ object class ရဲ့ name က pass လုပ်ပြီး အဲ့ name ကို require ခေါ် run တာပါ။ နားရှုပ်သွားသလား?  Code ပြပါမယ်။
+        spl_autoload_register(function($classes){
+                 return require $classes . '.php';
+        });
+        ဒါလေးပါပဲ။ အဲ့ file ကို ကျွန်တော်တို့ object ခေါ်သုံးမဲ့ file တိုင်း file တိုင်းရဲ့ ထိပ်ဆုံးမှာ include လုပ်ထားရုံပါပဲ။ require တွေအများကြီးနဲ့ အာရုံနောက်စရာမလိုတော့ပါဘူး။ Class တစ်ခုကို Object လှမ်းခေါ်မယ်။ အဲ့အခါ အဲ့ Class name က spl_autoload_register ထဲကို သူ့ရဲ့ callback function ကနေတဆင့် parameter အနေနဲ့ pass ပါမယ်။ အဲ့ callback function ထဲမှာ ဝင်လာတဲ့ class name ကို require လှမ်းလုပ်ပြီး return ပြန်ပါတယ်။ ဒါပါပဲ။ dynamic ဖြစ်သွားတဲ့အတွက် အများကြီး ရေးစရာမလိုပဲ code သုံးကြောင်းလောက်လေးနဲ့ အလုပ်ဖြစ်သွားတဲ့ autoload ပါ။"
+    },
+    {
+        "id": 8,
+        "title": "Difference between Include, Include Once, Require and Require Once in PHP",
+        "category_id": 2,
+        "photo": "images/8.jpg",
+        "description": "ဒီ article ကတော့ မသိမဖြစ်သိရမယ့် အကြောင်းအရာကို ရေးထားတာပါ။ PHP developer အနေနဲ့ include, include_once, require နဲ့ require_once ဆိုတဲ့ method တွေကို ရင်းနီးမှာပါ။ ဒီလေးခုရဲ့လုပ်ဆောင်ချက်က ကျွန်တော်တို့ လိုအပ်တဲ့ file တွေကို လိုအပ်သလို code ထဲ အစားထိုး ထည့် run ဖို့အတွက် သုံးပါတယ်။ ဥပမာ header.php ဆိုတဲ့ file ကို index.php ဆိုတဲ့ php ထဲမှာ လိုအပ်လို့ ထည့် run မယ်ဆိုရင် header.php ထဲက code တွေကို index.php ထဲ လာမရေးတော့ပဲ အပေါ်က လေးခုထဲက တစ်ခုခုကို index.php ကနေ ခေါ်ပြီး ထည့်ရေးလိုက်တာပါ။ အဲ့တော့ ဒီလေးခုရဲ့ လုပ်ဆောင်ချက်က အတူတူပါပဲ။ ဒါမဲ့ တူရဲ့သားနဲ့ ဘာလို့ လေးခုဖြစ်နေတာလဲဆို မတူတာလေးတွေရှိလို့ပါ။ ဒီမတူတာလေးတွေကို ကျနော် ပြောပြပါမယ်။
+        အရင်ဆုံး လေးခုထဲက main နှစ်ခု မတူတာကို အရင်ပြောပြပါမယ်။ include နဲ့ require နဲ့ကိုပါ။ 
+        include() vs require()
+        ဥပမာ header.php ကို ကျွန်တော်တိ်ု့ include လုပ်မယ်ဆိုရင် include('header.php'); ဆိုပြီးရေးရပါတယ်။ ဒီလိုရေးလိုက်တာနဲ့ header.php ထဲက code တွေက လာအလုပ်လုပ်ပါတယ်။ (အစားသွင်းလိုက်တာပေါ့) require() လဲ ဒီလိုပါပဲ။ သို့ပေမဲ့ သူတို့မှာမတူတဲ့ အချက်က include လုပ်လို့တဲ့ file မရှိခဲ့ရင် (invalid ဖြစ်ခဲ့ရင်) ဒါမှမဟုတ် တစ်ခုခုကြောင့် error တက်ခဲ့ရင် warning error (E_WARNING) ပဲတက်ပြီး include အောက်မှာ ဆက်ရေးထားတဲ့ code တွေက ဆက်အလုပ်လုပ်ပါတယ်။ require မှာကျ error တက်ရင် fatal error (E_COMPILE_ERROR) တက်ပြီး သူ့အောက်မှာ ဆက်ရေးထားတဲ့ code တွေ အလုပ်မလုပ်တော့ပဲ error တက်တဲ့ require မှာတင် die သွားပါတယ်။
+        include() vs include_once() & require() vs require_once()
+        အဲ့တော့ main နစ်ခုရဲ့ differences ကိုသိပြီဆိုရင် သူ့တစ်ခုချင်းဆီမှာ ရှိတဲ့ အရာနှစ်ခုကို နှိုင်းယှဉ်ပြပါမယ်။ include နဲ့ include_once ကော၊ require နဲ့ require_once ကော မတူတဲ့အချက်က file တစ်ခုကို include or require သုံးရင် နောက်ထပ် အဲ့ file ကို include or require ထပ်ရေးရေး ထပ်ခေါ်ပါတယ်။ include_once နဲ့ require_once ကကျတော့ ဘယ်နှစ်ခါခေါ်ခေါ် ခေါ်လိုက်တဲ့ file တူခဲ့ရင် တစ်ခါပဲ ခေါ်ပါတယ်။ ဥပမာ require နဲ့ရှင်းပြပါမယ်။ (include လဲ ထိုနည်း၎င်းပါ)
+        require('header.php');
+        require('header.php');
+        အဲ့လိုနှစ်ခါထပ်ရေးရင် header file ကို နှစ်ခါထပ်ခေါ်ပါတယ်။
+        require_once('header.php'):
+        require_once('header.php'):
+        require_once ကို အဲ့လိုနှစ်ခါထပ်ရေးရင် ခေါ်တဲ့ header file က အတူတူပဲ ဖြစ်တဲ့အတွက် ခုနကလို header file ကို နှစ်ခါထပ်မခေါ်ပဲ တစ်ခါပဲ ခေါ်ပြီး အလုပ်လုပ်ပါတယ်။
+        ဒါဟာ php မှာ မသုံးမဖြစ် သုံးလေ့ရှိတဲ့ include, include_once, require, require_once လေးခုရဲ့ ကွဲပြားခြားနားချက်တွေပါ။"
+    },
+    {
+        "id": 9,
+        "title": "Programming Paradigms",
+        "category_id": 3,
+        "photo": "images/9.jpg",
+        "description": "Programming Paradigms ဆိုတာ ဘာလဲဆိုရင် Programming ရေးနည်း ရေးဟန်ပါပဲ။ Program တစ်ခုဖြစ်ဖို့အတွက် ကျွန်တော်တို့ Code တွေရေးရတယ်။ ရေးပြီဆိုတဲ့နေရာမှာ ရေးဟန်ဆိုတာရှိပါတယ်။ ဘယ်လိုရေးမလဲပေါ့။ Procedural သုံးမှာလား? Object-Oriented နဲ့ရေးမှာလား? Functional နဲ့ ကစ်မှာလား? Logical နဲ့ဖြုတ်မှာလား? အများကြီးပါ။ နားလည်အောင် ပြောရမယ်ဆို English sentence တစ်ခုရေးချင်တယ်ဆိုပါစို့။ ကျွန်တော်တို့ ရေးချင်တဲ့ sentence တစ်ခုရေးဖို့အတွက် ဘာ Grammer သုံးမလဲ? Active <=> Passive လား? Direct <=> Indirect လား? If Clause လား? When Clause လား? ဒါမျိုးပါ။
+        အဲ့တော့ English စာ တစ်ပုဒ်မှာ ခုနကလို Grammer Pattern များစွာရှိနိုင်သလိုပဲ Programming Language တစ်ခုမှာလဲ Programming Paradigms တွေများစွာရှိနိုင်ပါတယ်။ ဥပမာ Python ဆို Object-Oriented ကော၊ Functional ကော၊ Procedural ကော၊ etc., အကုန်ရပါတယ်။ ကိုယ်ရေးတဲ့ grammer ရဲ့ ရေးနည်းမှန်ဖို့လိုသလို ကိုယ်ရေးတဲ့ programming paradigms ရဲ့ ရေးနည်းလဲမှန်ဖို့လိုပါတယ်။ ဥပမာ procedural နဲ့ object-oriented ရေးရင် imperative မသုံးပဲ declarative သွားသုံးလို့မရသလို၊ functional တွေ logic တွေ mathematical တွေ ရေးမယ်ဆိုရင် declarative မသုံးပဲ imperative သွားသုံးလို့မရပါဘူး။ သူ့ကိုယ်ပိုင်ရေးနည်း ရေးဟန် rules တွေရှိပါတယ်။ procedual နဲ့ object-oriented ဆို imperative style နဲ့ပဲ ရေးလို့ရသလို၊ functional, logic, mathematical တွေ ရေးမယ်ဆိုရင်လဲ declarative style ပဲ သုံးလို့ရမှာပါ။ ဒီမှာ imperative ကော declarative ကော နှစ်ခုစလုံးကလဲ programming paradigms ထဲမှာ ပါဝင်ပါတယ်။ ခုနကပြောပြီးပြီလေ။ programming paradigms တစ်ခုထက်ပိုပြီးရှိနိုင်တယ်လို့။
+        ဒါတွေ ဘာလို့ ကျွန်တော်တို့ သိရမလဲ? 
+        ခုနက ပြောသလို Programming Language တစ်ခုခုသုံးပြီး Code စရေးထဲကိုက ဒီ Programming Paradigms တွေက မသုံးမဖြစ်သုံးနေရတာပါ။ ကိုယ်မသိလို့ပါ။ (မင်းမကြည့်လို့ မသိတာပါ။ အချစ်က မင်းအနားမှာ😂) အဲ့တော့ အနဲဆုံး ကိုယ်စီးတဲ့ မြင်းဟာ အထီးလား အမလား သိအောင် လုပ်ထားသင့်ပါတယ်။ ဒီ့အပြင် programming paradigms တစ်ခုစီမှာလဲ သူ့ရဲ့ အားသာချက် အားနည်းချက်တွေရှိပါတယ်။ ဆိုတော့ ဒီအားသာချက် အားနည်းချက်တွေသိရင် ကိုယ် ဘာလိုချင်ရင် ဘယ်လိုရေးရမလဲဆိုတာ ရွေးချယ်ပြီးအသုံးပြုနိုင်သွားပါပြီ။ ဥပမာ Parallel Computing အတွက်ဆို ငါဘာသုံးမလဲ? Mathematical Computing အတွက်ဆို ဘာသုံးမလဲ? Lazy Evaluation အတွက်ဆို ဘာသုံးမလဲ? execution time မြန်ဖို့အတွက်? side effect နည်းဖို့အတွက်? အစရှိသဖြင့် ကိုယ်လိုချင်တဲ့ main point ကို ထိရောက်အောင် အလွယ်တကူရေးလာနိုင်ပါမယ်။ ဒီလိုရေးလာနိုင်တာနဲ့အမျှ ကိုယ်ရေးလိုက်တဲ့ program ကလဲ error ကင်းကင်း side effect ရှင်းရှင်း memory leak မရှိ ပေါ့ပေါ့ပါးပါးနဲ့ efficient ဖြစ်လာမှာ အသေအချာပါပဲ။
+        ဒီ Programming Paradigms ထဲက Object-Oriented Programming အကြောင်းဖတ်ချင်ရင်တော့ ဒီမှာပါ။ ကျန်တာတွေလဲ ဆက်ရေးသွားပါမယ်။
+        https://www.facebook.com/groups/268145817721147/permalink/342241950311533/
+        အောက်မှာ Programming Paradigms တွေ သိသလောက်ဖော်ပြပေးထားပါတယ်။
+        Action
+        Agent-oriented
+        Array-oriented
+        Automata-based
+        Concurrent computing
+        Relativistic programming
+        Data-driven
+        Declarative (contrast: Imperative)
+        Functional
+        Functional logic
+        Purely functional
+        Logic
+        Abductive logic
+        Answer set
+        Concurrent logic
+        Functional logic
+        Inductive logic
+        Constraint
+        Constraint logic
+        Concurrent constraint logic
+        Dataflow
+        Flow-based
+        Reactive
+        Ontology
+        Differentiable
+        Dynamic/scripting
+        Event-driven
+        Function-level (contrast: Value-level)
+        Point-free style
+        Concatenative
+        Generic
+        Imperative (contrast: Declarative)
+        Procedural
+        Object-oriented
+        Polymorphic
+        Intentional
+        Language-oriented
+        Domain-specific
+        Literate
+        Natural-language programming
+        Metaprogramming
+        Automatic
+        Inductive programming
+        Reflective
+        Attribute-oriented
+        Macro
+        Template
+        Non-structured (contrast: Structured)
+        Array
+        Nondeterministic
+        Parallel computing
+        Process-oriented
+        Probabilistic
+        Quantum
+        Set-theoretic
+        Stack-based
+        Structured (contrast: Non-structured)
+        Block-structured
+        Structured concurrency
+        Object-oriented
+        Actor-based
+        Class-based
+        Concurrent
+        Prototype-based
+        By separation of concerns:
+        Aspect-oriented
+        Role-oriented
+        Subject-oriented
+        Recursive
+        Symbolic
+        Value-level (contrast: Function-level)"
+    },
+    {
+        "id": 10,
+        "title": "Declarative Programming and Imperative Programming",
+        "category_id": 3,
+        "photo": "images/10.jpg",
+        "description": "ဒီ Programming နှစ်ခုဟာ Language တွေမဟုတ်ပါဘူး Paradigms တွေပါ။ Object-Oriented Programming လိုမျိုး programming paradigms တစ်မျိုးပါ။ ဒါကိုဘာလို့ အရင်ပြောပြရလဲဆိုရင် programming paradigms တွေထဲမှာ အခြေခံကျတဲ့ paradigms တစ်မျိုးလို့ ကျွန်တော်မြင်လို့ပါ။ ဘာလို့မြင်လဲဆိုတော့ ရှေ့လျှောက်ပြောပြမဲ့ Procedural Programming နဲ့ ရှေ့မှာပြောပြခဲ့တဲ့ Object-Oriented Programming ဟာ Imperative Programming Style ကို အသုံးပြုရပြီး Functional Programming, Logic Programming နဲ့ Mathematical Issues တွေမှာ Declarative Programming Style ကို အသုံးပြုရလို့ပါ။ ဒါကြောင့် ဒီနှစ်ခုကို အရင်ရှင်းပြတာပါ။
+        ဒီနှစ်ခုရဲ့ သဘောတရားကို နားလည်လွယ်အောင်ပြောရမယ်ဆိုရင် ကောင်မလေးတစ်ယောက်က ကောင်လေးတစ်ယောက်ကို အဖြေပေးတော့မယ်ပေါ့ဗျာ။ အဖြေကလဲ ငြင်းမဲ့အဖြေဗျာ။ အဲ့တော့ ပထမနည်းက ကောင်လေးကို ကောင်မလေးက ပြန်မချစ်နိုင်ဘူးလို့ ဒဲ့တစ်ခွန်းထဲ ပြောချလိုက်ပြီး ငြင်းတာ။ ဒါ နံပါတ် ၁ နည်းလမ်းပေါ့။ နောက်တစ်နည်းကကျ ကောင်မလေးက ကောင်လေးကို ငါနင့်ကို လောလောတယ် စိတ်မဝင်စားသေးဘူး။ ဒါမဲ့ ငါတို့ သူငယ်ချင်းအဆင့်နဲ့ အရင်နေရအောင်။ နေတာကြာလာရင် စိတ်ဝင်စားလာမှာ blah blah blah...။ ဒါလဲငြင်းတာပဲနော် သိဘို့။ သူငြင်းတဲ့နည်းက ငြင်းတဲ့သူအဖိ်ု့ risk များတယ်။ side effect များတယ်။ အငြင်းခံရတဲ့ကောင်လေးက အနားမှာ ရစ်သီရစ်သီနဲ့ ဆက်အာရုံနောက်နေလို့ရတယ်။ :3 အဲ့တော့ ဒီမှာ မတူတာက ပထမနည်းက ပြတ်တယ်။ ရှင်းရှင်းပဲ။ ဒီနည်းက Declarative Programming ။ သူလုပ်ချင်တာကို သူ ပြတ်ပြတ်သားသား ပေမရှည် အမှားမရှိပဲ အလုပ်လုပ်တယ်။ Short to the point ပဲ။ နောက်တစ်နည်းကကျ ပေရှည်တယ်။ ငြင်းတာပဲ အတူတူပဲ။ ဒီနည်းကကျ imperative Programming ။ သူငြင်းရမယ်ဆိုတဲ့ task တစ်ခုကို ပေရှည်ပြီးလုပ်သွားတာ။ လုပ်တာချင်း အတူတူ Declarative Programming နဲ့ Imperative Programming ဘာကွာလဲဆိုတာ မြင်မယ်ထင်တယ်။ Coding နဲ့ ထပ်ပြပါမယ်။
+        JavaScript နဲ့ ပြပါမယ်။ နားလည်လွယ်အောင်ပါ။
+        Imperative Programming in JavaScript
+        var arr = ['a','b','c','d','e'];
+        for(var i = 0; i < 5; i++){
+             console.log(arr[i]);
+        }
+        Declarative Programming in JavaScript
+        var arr = ['a','b','c','d','e'];
+        arr.map(item => console.log(item));
+        ဒီမှာ ကြည့်မယ်ဆိုရင် Imperative Programming က ရိုးရှင်းပါတယ်။ ကျနော်တို့ array ကို for loop ပတ်ချင်တာပါ။ ဒါကို ပေမရှည်ဘူးလို့ ထင်ကောင်းထင်နိုင်ပါတယ်။ တကယ်တော့ ပေရှည်သလို side effect လဲ များပါတယ်။ for loop ထဲမှာ ထည့်ထားတဲ့ index i က မထည့်တတ်ရင် error တက်တတ်ပါတယ်။ ဒီတော့ ကျွန်တော်တို့ ဒါကို ခပ်ပြတ်ပြတ်ရေးရမယ်ဆိုရင် declarative programming နဲ့ရေးပါမယ်။
+        ဒီ Declarative Programming ကိုကြည့်မယ်ဆိုရင် map function ထည့်ရေးလိုက်တာကို မြင်ရမှာပါ။ အာရုံနောက်စရာ side effect လဲ မရှိပါဘူး။ array မှာ ရှိသလောက် index တွေမကုန်မချင်း သူပတ်ချသွားမယ်။ ဒါပါပဲ။ code လဲ လိုရင်းတိုရှင်းဖြစ်သလို error တက်နိုင်ခြေလဲ နည်းပါတယ်။ ဒါ Imperative Programming နဲ့ Declarative Programming အကြောင်းပါ။ ဒီနည်းလမ်း နှစ်ခုလုံးကို ရေးဖူးမှာပါ။ ဒါမဲ့ Imperative မှန်း Declarative မှန်း အခုမှသိကြတဲ့သူများကိုပြောချင်တာက...
+        မင်းမကြည့်လို့မသိတာပါ။ အချစ်က မင်းအနားမှာ"
+    }
 ]

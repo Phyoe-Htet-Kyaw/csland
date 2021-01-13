@@ -5,6 +5,10 @@
     },
     {
         "id": 2,
+        "name": "Object Oriented Programming (OOP) with PHP"
+    },
+    {
+        "id": 3,
         "name": "Programming Paradigms"
     }
 ]
